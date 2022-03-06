@@ -1,0 +1,41 @@
+/* position boards */
+.relative, .absolute, .fixed, .sticky {
+    display: flex; 
+}
+
+.funny-glasses {
+    position: relative;
+    bottom: 6.75em;
+    left: 13.25em;
+}
+
+.bandana {
+    position: absolute;
+    top: 175px;
+    left: 116px;
+    z-index: 1;
+}
+
+.pawprint {
+    width: 45px;
+    position: fixed;
+    left: 65px;
+    top: 47px;
+}
+
+
+.sticky img {
+    margin-right: 1em;
+}
+
+.top-hat {
+    position: relative;
+    left: 133px;
+    top: -10px;
+    width: 40px;
+    z-index: 1;
+}
+
+.luna {
+    position: sticky;
+}
